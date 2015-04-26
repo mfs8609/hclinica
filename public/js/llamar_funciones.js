@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	api = 'http://localhost:8000/';
+	api = 'http://h-clinica-2.herokuapp.com/';
 
 	cargarItems();
 	enviarAnotacion();
