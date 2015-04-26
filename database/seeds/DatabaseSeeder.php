@@ -27,7 +27,7 @@ class AreaTableSeeder extends Seeder {
 	public function run()
 	{
 		DB::table('areas')->delete();
-		DB::table('sqlite_sequence')->delete();
+		//DB::table('sqlite_sequence')->delete();
 
 		App\Area::create(array('nombre' => 'Psicomotricidad')); //1
 		App\Area::create(array('nombre' => 'Sensopercepción')); //2
