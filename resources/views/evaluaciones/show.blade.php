@@ -12,7 +12,7 @@
 					
 					<label for="selectArea">Área</label>
 					<select name="" id="selectArea" class="form-control">
-						<option value="0">--</option>						
+						<!--option value="0">--</option-->						
 					</select>
 
 					<br>
@@ -41,7 +41,7 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			
-				<div class="table-responsive">
+				<div class="table-responsive panel panel-default">
 				<table class="table table-bordered table-hover">
 					<thead>
 						<th>#</th>
